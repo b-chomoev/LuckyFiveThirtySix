@@ -1,12 +1,25 @@
 import './App.css'
+import './LotteyBall/LotteryBall'
+import LotteryBall from "./LotteyBall/LotteryBall";
 
-function App() {
+const App = () => {
 
-  return (
-    <>
-      Hello World!
-    </>
-  )
+    const randomNumbers = () => {
+
+    }
+
+    return (
+        <>
+            <div className='lottery-ball'>
+                <LotteryBall number={5} />
+                <LotteryBall number={5} />
+                <LotteryBall number={5} />
+                <LotteryBall number={5} />
+                <LotteryBall number={5} />
+            </div>
+            <button onClick={randomNumbers}>Click me</button>
+        </>
+    )
 }
 
 export default App

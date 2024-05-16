@@ -4,3 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+
+.lottery-ball {
+  display: flex;
+  color: green;
+  margin-bottom: 20px;
+}
